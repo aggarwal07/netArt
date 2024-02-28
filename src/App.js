@@ -6,7 +6,7 @@ import SectionII from './components/SectionII';
 
 function App() {
   return (
-    <div className='h-fit w-[50vw] mx-auto bg-gradient-to-b from-[#fffffa] to-[#feffb3]'>
+    <div className='h-fit md:w-[75vw] lg:w-[50vw] mx-auto bg-gradient-to-b from-[#fffffa] to-[#feffb3]'>
       <Header/>
       <SectionI/>
       <SectionII/>
